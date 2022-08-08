@@ -13,71 +13,71 @@ public class DocSo {
         tram = (num / 100) % 10;
         switch (tram) {
             case 1:
-                System.out.printf("Một trăm");
+                System.out.printf("Một trăm ");
                 break;
             case 2:
-                System.out.printf("Hai trăm");
+                System.out.printf("Hai trăm ");
                 break;
             case 3:
-                System.out.printf("Ba trăm");
+                System.out.printf("Ba trăm ");
                 break;
             case 4:
-                System.out.printf("Bốn trăm");
+                System.out.printf("Bốn trăm ");
                 break;
             case 5:
-                System.out.printf("Năm trăm");
+                System.out.printf("Năm trăm ");
                 break;
             case 6:
-                System.out.printf("Sáu trăm");
+                System.out.printf("Sáu trăm ");
                 break;
             case 7:
-                System.out.printf("Bảy trăm");
+                System.out.printf("Bảy trăm ");
                 break;
             case 8:
-                System.out.printf("Tám trăm");
+                System.out.printf("Tám trăm ");
                 break;
             case 9:
-                System.out.printf("Chín trăm");
+                System.out.printf("Chín trăm ");
                 break;
         }
         switch (chuc) {
             case 0:
-                System.out.printf("lẻ");
+                System.out.printf("lẻ ");
                 break;
             case 1:
-                System.out.printf("Mười");
+                System.out.printf("Mười ");
                 break;
             case 2:
-                System.out.printf("Hai mươi");
+                System.out.printf("Hai mươi ");
                 break;
             case 3:
-                System.out.printf("Ba mươi");
+                System.out.printf("Ba mươi ");
                 break;
             case 4:
-                System.out.printf("Bốn mươi");
+                System.out.printf("Bốn mươi ");
                 break;
             case 5:
-                System.out.printf("Năm mươi");
+                System.out.printf("Năm mươi ");
                 break;
             case 6:
-                System.out.printf("Sáu mươi");
+                System.out.printf("Sáu mươi ");
                 break;
             case 7:
-                System.out.printf("Bảy mươi");
+                System.out.printf("Bảy mươi ");
                 break;
             case 8:
-                System.out.printf("Tám mươi");
+                System.out.printf("Tám mươi ");
                 break;
             case 9:
-                System.out.printf("Chín mươi");
+                System.out.printf("Chín mươi ");
                 break;
         }
         switch (donVi) {
             case 1:
-                System.out.printf("Một");
+                System.out.printf("Một ");
                 break;
             case 2:
-                System.out.printf("Hai");
+                System.out.printf("Hai ");
                 break;
             case 3:
                 System.out.printf("Ba ");
@@ -86,10 +86,10 @@ public class DocSo {
                 System.out.printf("Bốn ");
                 break;
             case 5:
-                System.out.printf("Năm");
+                System.out.printf("Năm ");
                 break;
             case 6:
-                System.out.printf("Sáu");
+                System.out.printf("Sáu ");
                 break;
             case 7:
                 System.out.printf("Bảy ");
