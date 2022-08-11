@@ -7,7 +7,7 @@ public class ThemPhanTu {
         Scanner sc = new Scanner(System.in);
         System.out.printf("Nhập độ dài cho mảng: ");
         int size = sc.nextInt();
-        int arr[] = new int[size];
+        int arr[] = new int[10];
         int push;
         int index;
         for (int i = 0; i < size; i++) {
@@ -23,10 +23,12 @@ public class ThemPhanTu {
                 System.out.printf("Nhập lại! Không thêm vào mảng được");
             }
         } while (index <= 1 || index > arr.length - 1);
-        for (int j = arr.length - 1; j >= index; j--) {
+        for (int j = size-1; j >= index; j--) {
             arr[j + 1] = arr[j];
         }
         arr[index] = push;
+
+        //HỎI CÁCH TĂNG KÍCH THƯỚC SAU KHI THÊM
 
         System.out.printf("Mảng sau khi thêm : ");
         for (int h = 0; h < arr.length; h++) {
