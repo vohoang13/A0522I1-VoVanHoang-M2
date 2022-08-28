@@ -52,10 +52,8 @@ public class MovablePoint extends Point{
     }
 
     public MovablePoint move() {
-        float x = getX();
-        float y = getY();
-        x += xSpeed;
-        y += ySpeed;
+        this.x += xSpeed;
+        this.y += ySpeed;
         return this;
     }
 

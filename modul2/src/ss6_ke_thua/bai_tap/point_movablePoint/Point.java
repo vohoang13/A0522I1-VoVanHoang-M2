@@ -1,8 +1,8 @@
 package ss6_ke_thua.bai_tap.point_movablePoint;
 
 public class Point {
-    private float x;
-    private float y;
+    float x;
+    float y;
 
     public Point() {
         this.x = 0.0f;

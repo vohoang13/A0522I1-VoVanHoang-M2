@@ -2,7 +2,7 @@ package ss7_abstractClass_interface.bai_tap.resizeable;
 
 import ss7_abstractClass_interface.bai_tap.resizeable.Resizeable;
 
-public class Rectangle extends Shape {
+public class Rectangle extends Shape{
     private double width;
     private double length;
 

@@ -2,7 +2,7 @@ package ss7_abstractClass_interface.bai_tap.resizeable;
 
 import ss7_abstractClass_interface.bai_tap.resizeable.Resizeable;
 
-public class Circle extends Shape {
+public class Circle extends Shape{
     private double radius;
 
     @Override
