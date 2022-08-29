@@ -56,18 +56,6 @@ public class MyList<E> {
         return arrNew;
     }
 
-    public boolean contains(E o){
-        boolean contain = true;
-        for (int i = 0; i < element.length;i++){
-            if(element[i].equals(o)){
-                contain = true;
-            }else {
-                contain = false;
-            }
-        }
-        return contain;
-    }
-
     public int indexOf(E o){
         int index = 0;
         for(int i = 0 ;i< element.length;i++){
@@ -78,7 +66,9 @@ public class MyList<E> {
         return index;
     }
 
-    public void clear(){
-        element = null;
+    public void clear() {
+        for (int i = 0; i < element.length; i++) {
+            element[i] = 0;
+        }
     }
 }
