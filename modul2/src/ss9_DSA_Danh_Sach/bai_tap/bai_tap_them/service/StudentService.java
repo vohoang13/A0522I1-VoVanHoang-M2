@@ -34,6 +34,8 @@ public class StudentService implements IStudent{
         for( int i = 0; i < studentList.size(); i++){
             if(studentList.get(i).getCode().equals(code)){
                 index = i;
+            }else {
+                return;
             }
         }
         System.out.println("Yes or No ?");
@@ -64,4 +66,5 @@ public class StudentService implements IStudent{
 }
 
 
-
+// xóa theo id ( indexOf, equal)
+// xếp implement Comparator
