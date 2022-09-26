@@ -2,6 +2,7 @@ package s17_BinaryFile.bai_tap.quan_ly_san_pham.repository;
 
 import s17_BinaryFile.bai_tap.quan_ly_san_pham.model.Product;
 
+import javax.annotation.processing.FilerException;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -59,12 +60,12 @@ public class ProductRepository implements IProductRepository{
         } catch (FileNotFoundException e) {
             System.out.println("Không tìm thấy file");
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }finally {
             try {
                 oos.close();
             } catch (IOException e) {
-                throw new RuntimeException(e);
+                e.printStackTrace();
             }
         }
     }
@@ -83,9 +84,9 @@ public class ProductRepository implements IProductRepository{
         } catch (FileNotFoundException e) {
             System.out.println("Không tìm thấy file");
         } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
         return productList1;
     }

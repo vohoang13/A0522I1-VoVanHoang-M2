@@ -12,6 +12,7 @@ public class ProductService implements IProductService{
 
     Scanner scanner = new Scanner(System.in);
     IProductRepository iProductRepository = new ProductRepository();
+    ProductRepository repository = new ProductRepository();
     @Override
     public void addProduct() throws IOException {
         Product product = this.inforProduct();
