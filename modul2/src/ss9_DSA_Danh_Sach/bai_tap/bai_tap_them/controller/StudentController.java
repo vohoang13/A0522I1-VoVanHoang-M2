@@ -5,7 +5,9 @@ import ss9_DSA_Danh_Sach.bai_tap.bai_tap_them.service.StudentService;
 
 import java.util.Scanner;
 
-public class StudentController {
+public class
+
+StudentController {
     private static IStudent iStudent = new StudentService();
     private static Scanner scanner = new Scanner(System.in);
 
